@@ -1,4 +1,4 @@
-/*
+﻿/*
 * @Author: Administrator
 * @Date:   2017-03-31 17:26:39
 * @Last Modified by:   Administrator
@@ -10,11 +10,6 @@
 	padding: 0px;
 	list-style: none;
 	font-family: "苹方","微软雅黑";
-}
-
-body{
-	height: 30000px;
-	background: #F2F2F2;
 }
 
 .container-fuilt{
