@@ -1,0 +1,698 @@
+/*
+* @Author: Administrator
+* @Date:   2017-03-31 17:26:39
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-01 13:08:29
+*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	font-family: "苹方","微软雅黑";
+}
+
+body{
+	height: 30000px;
+	background: #F2F2F2;
+}
+
+.container-fuilt{
+	width: 100%;
+	display: block;
+	margin: 0px auto;
+}
+
+header{
+	width: 100%;
+	height: 400px;
+	background: red;
+}
+
+header .picture{
+	width: 100%;
+	height: 100%;
+	background: url('../img/banner.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+	padding-top: 138px;
+	position: relative;
+}
+
+header .picture .text{
+	width: 1170px;
+	height: 202px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+header .picture .text .bootstrap{
+	width: 100%;
+	height: 100px;
+}
+
+header .picture .text .bootstrap a{
+	font-size: 59px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+header .picture .text .bootstrap a:hover{
+	text-decoration: underline;
+}
+
+header .picture .text .youzhanjingxuan{
+	width: 100%;
+	height: 102px;
+	font-size: 32px;
+	color: #fff;
+}
+
+header .picture img{
+	width: 78px;
+	height: 68px;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: -35px;
+	margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+.container{
+	width: 1170px;
+	margin: 0px auto;
+}
+
+.row{
+	padding-top: 75px;
+}
+
+/* .row:after{
+	content: "";
+	display: block;
+	clear: both;
+} */
+
+.row ul:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.row li{
+	padding:15px;
+}
+
+.row li .pic{
+	width: 555px;
+	height: 387px;
+	box-sizing: border-box;
+	padding: 12px;
+	background: #fff;
+}
+
+.row li .pic img{
+	width: 100%;
+	height: 332px;
+	cursor: pointer;
+}
+
+.row li .text{
+	width: 100%;
+	height: 31px;
+	line-height: 31px;
+	text-align: center;
+}
+
+.row li a{
+	text-decoration: none;
+	font-size: 23px;
+	color: #777777;
+}
+
+.row li a:hover{
+	color: #222222;
+	text-decoration: underline;
+}
+
+
+
+.container .fanye{
+	width: 100%;
+	height: 92px;
+	font-size: 11px;
+	color: #39414A;
+	text-align: center;
+	padding-top: 1px;
+	position: relative;
+}
+
+
+.container .fanye span{
+	display: block;
+	margin-top: 37px;
+}
+
+.container .fanye .next{
+	width: 76px;
+	height: 38px;
+	border: 1px solid #39414A;
+	border-radius: 3px;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	right: 25px;
+	margin: auto;
+}
+
+.container .fanye .next a{
+	font-size: 12px;
+	color: #39414A;
+	line-height: 38px;
+	text-decoration: none;
+}
+
+.container .fanye .next:hover{
+	background: #4A4849;
+}
+
+.container .fanye .next:hover a{
+	color: #fff;
+}
+
+
+.weibu{
+	width: 100%;
+	height: 139px;
+	background: #EEEEEE;
+	padding-top: 1px;
+}
+
+.weibu .text{
+	width: 100%;
+	height: 44px;
+	margin-top: 43px;
+	font-size: 14px;
+	color: #333333;
+	text-align: center;
+}
+
+.weibu .text a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #337AB7;
+}
+
+
+.weibu .text a:hover{;
+	color: #23527C;
+	text-decoration: underline;
+}
+
+.fenlie{
+	width: 100%;
+	background: #202020;
+	border-bottom: 1px solid #303030;
+}
+
+.fenlie .mianban{
+	width: 1170px;
+	height: 100%;
+	margin: 0px auto;
+}
+
+.fenlie .mianban .bigbox:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.fenlie .mianban .item{
+	width: 33.33%;
+	height: 100%;
+	float: left;
+	box-sizing: border-box;
+	padding:25px 45px 0px;
+	margin-bottom: 35px;
+
+}
+
+.fenlie .mianban .item dt{
+	font-size: 18px;
+	border-bottom: 1px solid #303030;
+}
+
+.fenlie .mianban .item dl{
+
+	}
+
+.fenlie .mianban dd{
+	width: 100%;
+	text-align: left;
+	box-sizing: border-box;
+	border-bottom: 1px dashed #303030;
+}
+
+.fenlie .mianban .item:nth-child(2) dd{
+	border-bottom: 0px;
+}
+
+.fenlie .mianban .dd{
+	margin-top: 7px;
+}
+
+.fenlie .mianban li:first-child dd a,li:last-child dd a{
+	font-size: 14px;
+	color: #959595;
+	text-decoration: none;
+	display: block;
+	padding: 14px 0px;
+}
+
+.fenlie .mianban li:first-child dd a:hover{
+	color: #FBFBFB;
+}
+
+.fenlie .mianban li:last-child dd a:hover{
+	color: #FBFBFB;
+}
+
+.fenlie .mianban dt{
+	width: 100%;
+	height: 37px;
+	font-size: 16px;
+	color:#F8F8F8; 
+	line-height: 37px;
+	text-align: left;
+}
+
+.fenlie .mianban .item li{
+	border: 1px solid #303030;
+	cursor: pointer;
+}
+
+.fenlie .mianban .item li:hover{
+	background: #3278B4;
+}
+
+
+.fenlie .mianban .item li:hover span{
+	color: #F2F2F2;
+}
+
+.fenlie li:nth-child(2) dd{
+	width: 100%;
+	margin-top: 14px;
+}
+
+.fenlie li:nth-child(2) dd a{
+	font-size: 13px;
+	color: #959595;
+	text-decoration: none;
+	display: block;
+	float: left;
+	border: 1px solid #303030;
+	margin: 7px 11px 0px 0px; 
+	box-sizing: border-box;
+	padding: 3px 7px;
+	transition: all 0.5s;
+}
+
+
+.fenlie li:nth-child(2) dd a:hover{
+	background: #306EA4;
+	color: #FEFEFE;
+}
+
+
+.mianban .bianhuan{
+	padding-top: 1px;
+	margin-bottom: 35px;
+	box-sizing: border-box;
+	padding: 0px 45px;
+	display: none;
+}
+
+.mianban .bianhuan:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.mianban .bianhuan li{
+	width: 100%; 
+	margin-top: 25px;
+	float: left;
+}
+
+.bianhuan dt{
+	border-bottom: 1px solid #303030;
+}
+
+
+
+.shengming{
+	width: 100%;
+	height: 52px;
+	background: #111111;
+}
+
+
+.shengming .wenben{
+	width: 1170px;
+	height: 100%;
+	line-height: 52px;
+	text-align: center;
+	font-size: 14px;
+	color: #555555;
+	margin: 0px auto;
+}
+.shengming .wenben a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #555555; 
+}
+
+.shengming .wenben a:hover{
+	text-decoration: underline;
+}
+
+.col-l-1{
+	width: 8.33%;
+}
+
+.col-l-2{
+	width: 16.66667%;
+}
+
+.col-l-3{
+	width: 25%;
+
+}
+
+.col-l-4{
+	width: 33.33%;
+}
+
+.col-l-5{
+	width: 41.66667%;
+}
+
+.col-l-6{
+	width: 50%;
+}
+
+.col-l-7{
+	width: 58.33%;
+}
+
+.col-l-8{
+	width: 66.66667%;
+}
+
+.col-l-9{
+	width: 75%;
+}
+
+.col-l-10{
+	width: 83.33%;
+}
+
+.col-l-11{
+	width: 91.66667%;
+}
+.col-l-12{
+	width: 100%;
+}
+
+
+[class*="col-"]{
+	float: left;
+	box-sizing: border-box;
+}
+
+
+
+@media screen and (max-width: 1186px){
+	header .picture .text{
+		width: 100%;
+	}
+}
+
+
+@media screen and (max-width: 1199px){
+	.container{
+		width:970px;
+	}
+
+	.row li .pic{
+		width:455px;
+		height: 324px; 
+	}
+
+	.row li .pic img{
+		height: 270px;
+	}
+
+	.fenlie .mianban{
+		width: 970px;
+	}
+
+	.shengming .wenben{
+		width:970px;
+	}
+	
+
+	.col-m-1{
+	width: 8.33%;
+	}
+
+	.col-m-2{
+		width: 16.66667%;
+	}
+
+	.col-m-3{
+		width: 25%;
+
+	}
+
+	.col-m-4{
+		width: 33.33%;
+	}
+
+	.col-m-5{
+		width: 41.66667%;
+	}
+
+	.col-m-6{
+		width: 50%;
+	}
+
+	.col-m-7{
+		width: 58.33%;
+	}
+
+	.col-m-8{
+		width: 66.66667%;
+	}
+
+	.col-m-9{
+		width: 75%;
+	}
+
+	.col-m-10{
+		width: 83.33%;
+	}
+
+	.col-m-11{
+		width: 91.66667%;
+	}
+	.col-m-12{
+		width: 100%;
+	}
+}
+
+
+@media screen and (max-width: 992px){
+	.container{
+		width:750px;
+	}
+
+	.row li .pic{
+		width:720px;
+		height: 490px; 
+	}
+
+	.row li .pic img{
+		height: 435px;
+	}
+	
+
+	.row .col-s-6 .pic{
+		width: 346px;
+		height: 256px;
+	}
+
+	.row .col-s-6 .pic img{
+		height:201px; 
+	}
+
+	.fenlie .mianban{
+		width: 750px;
+	}
+
+	.shengming .wenben{
+		width:750px;
+	}
+
+	.col-s-1{
+	width: 8.33%;
+	}
+
+	.col-s-2{
+		width: 16.66667%;
+	}
+
+	.col-s-3{
+		width: 25%;
+
+	}
+
+	.col-s-4{
+		width: 33.33%;
+	}
+
+	.col-s-5{
+		width: 41.66667%;
+	}
+
+	.col-s-6{
+		width: 50%;
+	}
+
+	.col-s-7{
+		width: 58.33%;
+	}
+
+	.col-s-8{
+		width: 66.66667%;
+	}
+
+	.col-s-9{
+		width: 75%;
+	}
+
+	.col-s-10{
+		width: 83.33%;
+	}
+
+	.col-s-11{
+		width: 91.66667%;
+	}
+	.col-s-12{
+		width: 100%;
+	}
+}
+
+
+@media screen and (max-width: 768px){
+	.container{
+		width:100%;
+	}
+    
+	.row li{
+		width: 100%;
+	}
+
+	.row .col-xs-12 .pic{
+		width:100%;
+		height: auto; 
+	}
+
+	.row .col-xs-12 .pic img{
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	.container .fanye .next{
+		width: 66px;
+		height: 38px;
+		position: absolute;
+		right: 15px;
+	}
+	.fenlie .mianban{
+		width: 100%;
+	}
+
+	.fenlie .bianhuan{
+		display: block;
+	}
+
+	.fenlie .bigbox{
+		display: none;
+	}
+
+	.shengming .wenben{
+		width:100%;
+	}
+
+	.col-xs-1{
+	width: 8.33%;
+	}
+
+	.col-xs-2{
+		width: 16.66667%;
+	}
+
+	.col-xs-3{
+		width: 25%;
+
+	}
+
+	.col-xs-4{
+		width: 33.33%;
+	}
+
+	.col-xs-5{
+		width: 41.66667%;
+	}
+
+	.col-xs-6{
+		width: 50%;
+	}
+
+	.col-xs-7{
+		width: 58.33%;
+	}
+
+	.col-xs-8{
+		width: 66.66667%;
+	}
+
+	.col-xs-9{
+		width: 75%;
+	}
+
+	.col-xs-10{
+		width: 83.33%;
+	}
+
+	.col-xs-11{
+		width: 91.66667%;
+	}
+	.col-xs-12{
+		width: 100%;
+	}
+}
